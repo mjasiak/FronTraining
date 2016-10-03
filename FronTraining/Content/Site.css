@@ -77,6 +77,23 @@ li a.navbar-default{
     top: 10%;
 }
 
+.cover-caption > .address-box {
+    position: relative;
+    left: 20%;
+    top: 5% !important;
+    margin-bottom: 50px;
+}
+
+.address-box > h5 {
+    font-weight: bold;
+}
+
+.address-box > address {
+    color: grey;
+    font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+}
+
+
 q{
     font-style: italic;
 }
