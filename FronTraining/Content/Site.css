@@ -1,0 +1,100 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: Montserrat, sans-serif;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+.navbar-default {
+    background-color: white !important;
+    border-color: white !important;
+}
+
+li a.navbar-default{
+    color: black !important;
+}
+
+.page-cover {
+    position: relative !important;
+}
+
+.page-cover > .cover-text {
+    position: absolute !important;
+    bottom: 35%;
+    left: -5%;
+}
+
+.cover-text > h1 {    
+    font-family: Montserrat, sans-serif;
+    font-size: 66px;
+    font-weight: bold;
+}
+
+@media (max-width: 640px) {
+    .cover-text > h1 {font-size: 15px !important;}
+}
+
+.horizontal-line {
+    border-top-color: black !important;
+    width: 25%;
+    position: absolute;
+    margin-bottom: 0 !important;
+}
+.cover-caption {
+    position: relative;
+}
+
+.cover-caption > p {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+
+q{
+    font-style: italic;
+}
+
+ul.square-list {
+    list-style-type:square;
+}
+
+.vrLine {
+    border-left: 1px solid black;
+}
+
+h2 {
+    font-family: Montserrat, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.middle-text {
+    position: relative;
+    right: 45%;
+    margin-bottom: 50px;
+}
+
+.hrunderline {
+    border-top-color: black;
+    width: 50px;
+}
