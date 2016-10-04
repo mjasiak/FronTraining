@@ -93,7 +93,6 @@ li a.navbar-default{
     font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
 }
 
-
 q{
     font-style: italic;
 }
@@ -127,10 +126,6 @@ h2 {
     position: relative;
 }
 
-h5{
-    
-}
-
 .centering {
     position: relative;
 }
@@ -147,25 +142,36 @@ h5{
 .linelist {
     list-style-type: none;
     text-align:justify;
+    display:table;
+    position:relative;
+    width: 150%;
+    left:-15%;
 }
 
 .linelist > li:before {
-    content: "- ";
+    content: "-  ";
+    display: table-cell;
 }
 
 .linelist > li {
-    display:inline-block;
+    display:table-row;
     color: gray;
     font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
     font-size: 14px;
     width: 300px;
 }
+
+.center_div {
+    margin-bottom: 15%;
+}
+
 .center_div > .cover-caption {
     text-align: justify;
+    margin-bottom: 10%;
 }
 
 .center_div > .cover-caption > p{
-    top:15% !important;
+    top: 15% !important;
     left: 35%;
     color: grey;
     font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
@@ -173,6 +179,11 @@ h5{
 
 .center_div > .cover-caption > .horizontal-line-half {
     left: 15% !important;
+}
+
+.center_div > a {
+    color: black;
+    font-weight: bold;
 }
 
 .img-container {
@@ -210,4 +221,28 @@ footer {
     text-align: center;
     background-color: rgba(255,255,255,0.5);
     width:80%;
+    height: 40px;
+}
+
+footer > p {
+    position: relative;
+    top: 25%;
+}
+
+.caption {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.caption > h5 {
+    font-family: Montserrat, sans-serif !important;
+}
+
+.thumbnail {
+    border: none;
+    text-align: center;
+}
+
+.padbot {
+    padding-bottom: 15px;
 }
