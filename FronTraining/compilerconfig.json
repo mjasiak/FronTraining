@@ -1,6 +1,6 @@
 ﻿[
   {
-    "outputFile": "Content/SiteSASS.css",
+    "outputFile": "Content/SiteCompiled.css",
     "inputFile": "Content/SiteSASS.scss"
   }
 ]

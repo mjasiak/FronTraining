@@ -1,0 +1,7 @@
+﻿@mixin obramowanie_wiadomosci($grubosc){
+    border: $grubosc solid black;
+}
+
+@mixin kolor_tekstu($kolor){
+    color: $kolor;
+}

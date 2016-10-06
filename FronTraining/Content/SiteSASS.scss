@@ -1,2 +1,31 @@
-﻿body {
+﻿@import "_mixins.scss";
+
+$fajny_kolor: #aef484;
+$drugi_kolor: #ff0650;
+
+
+
+.wiadomosc {
+    @include obramowanie_wiadomosci(5px);
+}
+
+.powodzenie {
+    @extend .wiadomosc;
+    border-color: $fajny_kolor;
+    @include kolor_tekstu($drugi_kolor);
+}
+
+.niepowodzenie {
+    @extend .wiadomosc;
+    border-color: red;
+    @include kolor_tekstu($fajny_kolor);
+}
+
+.nowa {
+    p {
+        color: black;
+    }
+    h1 {
+        color: $drugi_kolor;
+    }
 }

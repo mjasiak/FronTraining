@@ -1,0 +1,17 @@
+﻿.wiadomosc, .powodzenie, .niepowodzenie {
+  border: 5px solid black; }
+
+.powodzenie {
+  border-color: #aef484;
+  color: #ff0650; }
+
+.niepowodzenie {
+  border-color: red;
+  color: #aef484; }
+
+.nowa p {
+  color: black; }
+
+.nowa h1 {
+  color: #ff0650; }
+
