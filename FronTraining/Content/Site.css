@@ -262,6 +262,16 @@ footer > p {
     width: 290px;
 }
 
+.padheight {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height:100%;
+}
+
+.element-relative {
+    position: relative;
+}
+
 /* MEDIA */
 @media (min-width: 769px) and (max-width: 991px){
     h2{
